@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "escape",
+        "command": "toggleVim",
+        "when": "editorTextFocus && vim.mode == 'Disabled' || editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "latex-workshop.recipes"
+    },
+    // {
+    //     "key": "ctrl+shift+u",
+    //     "command": "editor.action.transformToUppercase",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+shift+l",
+    //     "command": "editor.action.transformToLowercase",
+    //     "when": "editorTextFocus"
+    // },
+    {
+        "key": "ctrl+alt+l",
+        "command": "python.enableLinting",
+        "when": "editorTextFocus"
+    },
+]

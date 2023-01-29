@@ -1,0 +1,37 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"main": {
+		"prefix": "main",
+		"body": [
+			"if __name__ == '__main__':\n"
+		],
+		"description": ""
+	},
+
+	"import_np": {
+		"prefix": "inp",
+		"body": [
+			"import numpy as np"
+		],
+		"description": ""
+	},
+
+	"utest": {
+		"prefix": "utest",
+		"body": [
+			"import unittest\n\n\nclass Test__(unittest.TestCase):\n    def setUp(self) -> None:\n        pass\n\n    def tearDown(self) -> None:\n        pass\n"
+		],
+		"description": ""
+	},
+	"debug":{
+		"prefix": "pdb",
+		"body": [
+			"import pdb; pdb.set_trace()"
+		],
+		"description": ""
+	},
+}
