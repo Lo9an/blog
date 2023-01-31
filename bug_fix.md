@@ -11,3 +11,6 @@ convert: not authorized `@/tmp/tmp__gwjasj.txt' @ error/property.c/InterpretImag
 convert: no images defined `PNG32:/tmp/tmp5ie4nz8y.png' @ error/convert.c/ConvertImageCommand/3258.
 ```
 [问题链接](https://askubuntu.com/questions/873112/imagemagick-cannot-be-detected-by-moviepy)
+
+
+在安装vulkan + ncnn时，竟然把服务器的版本记错了，导致apt update的是不正确的。看来不能相信自己的记忆力，实时查询的才是可靠的。
