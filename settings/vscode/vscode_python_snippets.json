@@ -19,6 +19,13 @@
 		],
 		"description": ""
 	},
+	"import_pd": {
+		"prefix": "ipd",
+		"body": [
+			"import pandas as pd"
+		],
+		"description": ""
+	},
 
 	"utest": {
 		"prefix": "utest",

@@ -30,3 +30,5 @@ TMD，原来git --bare 产生一个不需要工作目录的仓库的意思是仅
 后通过修改conda可执行文件（实际是一个py脚本）添加`os.environ['PATH'] = f"{os.getenv('CONDA_PREFIX')}/bin/:{os.getenv('PATH')}"`达到动态更改的效果
 
 在构建shielded env时用到了工厂模式，避免过深的参数传递，以及隐藏了构建对象过程的复杂细节（如使用共享game）
+
+ls ./ | grep taxi | xargs -n 1 cp -v ./taxi/get_parameter.sh
